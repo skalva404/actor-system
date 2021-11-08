@@ -26,10 +26,11 @@
     stored in other actors' mailboxes until they're processed.
 
 # **What actors do**
-    When an actor receives a message, it can do one of these 3 things:
-    1. Create more actors
-    2. Send messages to other actors
-    3. Designate what to do with the next message
+When an actor receives a message, it can do one of these 3 things:
+1. Create more actors
+2. Send messages to other actors
+3. Designate what to do with the next message
+
 Implement a Actor model where user able to instantiate an Actor system and subscribe the actors with their mail boxes,
 and producer should be able to produce to the designated mai boxes thus actors shall be able to process the messages received by
 their respective mail boxes.
